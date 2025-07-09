@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paystack Payment Demo</title>
+    <title>Paystack Payment System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa;
+            /* background-color: #650c75; */
+
+            background: linear-gradient(45deg, #b40c87, #800895, #0b939d);
         }
         .card {
             border-radius: 10px;
@@ -170,7 +172,7 @@
                             
                             // Clear and populate bank select
                             bankSelect.empty();
-                            bankSelect.append('<option value="" selected disabled>Choose bank</option>');
+                            bankSelect.append('<option value="" selected disabled>Choose Bank</option>');
                             
                             banks.forEach(bank => {
                                 bankSelect.append(`<option value="${bank.code}">${bank.name}</option>`);
