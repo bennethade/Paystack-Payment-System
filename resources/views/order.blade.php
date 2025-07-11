@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="text-center mt-4">
-                            <a href="/" class="btn btn-primary">Make Another Payment</a>
+                            <a href="/" class="btn btn-primary">Goto Home</a>
                         </div>
                     </div>
                 </div>
